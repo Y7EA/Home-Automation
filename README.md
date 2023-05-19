@@ -1,7 +1,7 @@
-# Home Automation
+# A Smart Home Automation Project
 
 ## Overview
-The Smart Home Project is a home automation system that allows you to control various aspects of your home using voice commands. With this project, you can control lights, monitor temperature, open/close the garage door, and more.
+It's a system that allows the user to control various aspects of his/her home using voice commands. With this project, you can control lights off/on (in the desired color), monitor the temperature, open/close the garage door, and more.
 
 ## Features
 - Voice-controlled lights: Turn lights on/off and change colors using voice commands.
@@ -23,7 +23,7 @@ The Smart Home Project is a home automation system that allows you to control va
 1. Connect the Arduino board to your computer.
 2. Install the required libraries (LiquidCrystal, Wire, LiquidCrystal_I2C, pyttsx3, speech_recognition) on your Arduino IDE and Python environment.
 3. Upload the Arduino code (`smart_home_arduino.ino`) to your Arduino board.
-4. Connect the sensors, actuators, and lights to the appropriate pins on the Arduino board according to the circuit diagram provided.
+4. Connect the sensors, actuators, and lights to the appropriate pins on the Arduino board according to the pins that were initialized in arduino and depending on the devices DataSheets.
 5. Connect the microphone to your computer for voice commands.
 
 ## Usage
@@ -33,6 +33,7 @@ The Smart Home Project is a home automation system that allows you to control va
    - "Turn on the lights"
    - "Open the garage door"
    - "Display temperature"
+
 
 ## Video Demo
 Watch the video: [[Video link]](https://drive.google.com/file/d/1wVOIRvlFE0CDaykv3QnUpUoXxQLUHcIG/view?usp=sharing)
@@ -48,7 +49,7 @@ Feel free to customize the code according to your specific needs. You can add ne
 If you encounter any issues or have questions, please refer to the documentation or seek assistance from me.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [[LICENSE](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)] file for details.
 
 ## Acknowledgments
 - [pyttsx3](https://pypi.org/project/pyttsx3/) - Text-to-speech library for Python
