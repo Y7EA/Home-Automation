@@ -7,16 +7,16 @@ The Smart Home Project is a home automation system that allows you to control va
 - Voice-controlled lights: Turn lights on/off and change colors using voice commands.
 - Temperature monitoring: Display temperature readings on an LCD screen.
 - Garage door control: Open and close the garage door using voice commands.
-- Gas detection: Detect gas levels in your home and trigger an alarm if necessary.
-- Motor controls: Control the movement of devices such as curtains or doors using motor controls.
+- Gas detection: Detect gas levels in your home and trigger an alarm when there is a gas leak.
+- Motor controlling: Control the movement of the garage door.
 
 ## Hardware Requirements
-- Arduino board
-- Sensors (IR sensor, gas sensor)
-- Actuators (LED lights, motor controls)
+- Arduino UNO 
+- Sensors (IR sensor, gas sensor, temperature sensor)
+- Actuators (motor)
 - LCD screen
 - Buzzer
-- RGB lights
+- RGB leds 
 - Microphone
 
 ## Installation and Setup
@@ -34,10 +34,9 @@ The Smart Home Project is a home automation system that allows you to control va
    - "Open the garage door"
    - "Display temperature"
 
-
 ## Video Demo
-<!-- [![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
- -->
+Watch the video: [[Video link]](https://drive.google.com/file/d/1wVOIRvlFE0CDaykv3QnUpUoXxQLUHcIG/view?usp=sharing)
+
 ## Additional Resources
 - [Article: Building a Voice-Controlled Smart Home](https://drive.google.com/file/d/18lYXL48CJIC80BdmO6eojvxKjHDZoQDv/view?usp=sharing) - Learn more about the development process and implementation details of this project.
 
